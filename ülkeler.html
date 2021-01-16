@@ -1,0 +1,230 @@
+<html lang="en">
+<head>
+<title>En Çok Etkilenen Ülkeler</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:darkred;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:brown;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:white;
+  color:brown;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.imagine {
+  background-color: #aaa;
+  width:320px;
+}
+
+/* Footer */
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+  .kücükimg{
+    width: 60px;
+    height:60px;
+    background-color:aqua;
+  }
+  table.ortala {
+margin-left:auto; 
+margin-right:auto;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CORONAVIRUS</h1>
+</div>
+
+<div class="navbar">
+  <a href="Anasayfa.html">Anasayfa</a>
+  <a href="ülkeler.html">En çok etkilenen Ülkeler</a>
+  <a href="Turkiye.html">Türkiye İstatislikleri</a>
+  <a href="karsilastirma.html">Dünya'da Korona Verileri</a>
+  <a href="hastane.html">Hastaneler</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Haberler</h2>
+    <div class="imagine" style="height:180px;"><img src="koronavirus-asi-aa-1497521_2.jpg" width="320px" height="180px"></div>
+    <h3>CORONAVIRUS AŞISI BULUNDU</h3>
+    <h4>Devamı için tıklayınız...</h4>
+    
+    <div class="kücükimg"><img src="koronavirus-asisi-aa-1497058_3.jpg">
+      <h3>Aşıyı Bulan Ülkeler </h3>
+      <h4>Devamı için tıklayınız...</h4>
+     </div> <br>
+    <div class="kücükimg"><img src="2928129_810x458.jpg" width="320px" height="180px">
+      <h3>Aşı İlk Kimlere Yapılacak</h3>
+      <h4>Devamı için tıklayınız...</h4>
+    </div> <br>
+    <div class="kücükimg"><img src="5f36c186c9de3d00bc394aa5.jpg" width="320px" height="180px"> 
+    <h3>İşte Bugünün Türkiye Korona verileri </h3>
+    <h4>Devamı için tıklayınız...</h4>
+    </div>
+  </div>
+  <div class="main">
+    <h2>İşte Covid-19'dan En Çok Etkilenen Ülkeler</h2>
+    <div class="imagine"><img src="5e861c0b5542811804501a68.jpg" width="320px" height="180px"></div>
+    <p>Corona virüs salgınında vaka sayısı dünya genelinde 2 milyona dayandı. Dün itibarıyla vaka sayısının 61 bin 49'a yükseldiği Türkiye,
+       en çok corona virüsü vakası görülen 10 ülke listesinin dokuzuncu sırasında yer alıyor.</p>
+      
+       <p>İlk corona virüsü vakasının 11 Mart’ta açıklandığı Türkiye’de vaka sayısı dün itibarıyla 61 bin 49’a yükseldi. 
+        Salgınla mücadelede 35’inci günü geride bırakan Türkiye, en çok vaka görülen 10 ülke listesinin dokuzuncu sırasında yer alıyor. 
+        Onuncu sıradaki Belçika‘daki vaka sayısı 30 bin 46’ya ulaştı.</p>
+
+    <br>
+    <div class="imagine"><img src="unnamed.jpg" width="320px" height="180px"></div>
+    <p>Listenin ilk sırasında 587 bin 173 vakayla ABD bulunuyor. İlk doğrulanan vakanın 21 Ocak günü açıklandığı ülkede şimdiye kadar
+         23 bin 644 kişi hayatını kaybetti. İkinci sırada 170 bin 99 vakayla İspanya, üçüncü sırada ise 159 bin 516 vakayla İtalya yer
+          alıyor.</p>
+
+          <h3>İŞTE EN ÇOK COVID-19 VAKASININ BULUNDUĞU 10 ÜLKE</h3>
+         <div class="ortala">
+          <table class="ortala">
+                <tr>
+                    <td>Ülkeler</td>
+                    <td>Vaka Sayıları</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ABD</td>
+                    <td>587 bin 173</td>
+                </tr>
+                <tr>
+                    <td>İspanya</td>
+                    <td>172 bin 541</td>
+                </tr>
+                <tr>
+                    <td>İtalya</td>
+                    <td>159 bin 516</td>
+                </tr>
+                <tr>
+                    <td>Fransa</td>
+                    <td>136 bin 779</td>
+                </tr>
+                <tr>
+                    <td>Almanya</td>
+                    <td>130 bin 72</td>
+                </tr>
+                <tr>
+                    <td>İngiltere</td>
+                    <td>188 bin 621</td>
+                </tr>
+                <tr>
+                    <td>Çin</td>
+                    <td>82 bin 249</td>
+                </tr>
+                <tr>
+                    <td>İran</td>
+                    <td>73 bin 303</td>
+                </tr>
+                <tr>
+                    <td>Türkiye</td>
+                    <td>61 bin 49</td>
+                </tr>
+                <tr>
+                    <td>Belçika</td>
+                    <td>30 bin 589</td>
+                </tr>
+        </table> 
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h4>2021 Tüm Hakları Saklıdır</h4>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+<title>Anasayfa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:darkred;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:brown;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:white;
+  color:brown;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.imagine {
+  background-color: #aaa;
+  width:320px;
+}
+
+/* Footer */
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+  .kücükimg{
+    width: 60px;
+    height:60px;
+    background-color:aqua;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CORONAVIRUS</h1>
+</div>
+
+<div class="navbar">
+  <a href="Anasayfa.html">Anasayfa</a>
+  <a href="ülkeler.html">En çok etkilenen Ülkeler</a>
+  <a href="Turkiye.html">Türkiye İstatislikleri</a>
+  <a href="karsilastirma.html">Dünya'da Korona Verileri</a>
+  <a href="hastane.html">Hastaneler</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Haberler</h2>
+    <div class="imagine" style="height:180px;"><img src="koronavirus-asi-aa-1497521_2.jpg" width="320px" height="180px"></div>
+    <h3>CORONAVIRUS AŞISI BULUNDU</h3>
+    <h4>Devamı için tıklayınız...</h4>
+    
+    <div class="kücükimg"><img src="koronavirus-asisi-aa-1497058_3.jpg">
+      <h3>Aşıyı Bulan Ülkeler </h3>
+      <h4>Devamı için tıklayınız...</h4>
+     </div> <br>
+    <div class="kücükimg"><img src="2928129_810x458.jpg" width="320px" height="180px">
+      <h3>Aşı İlk Kimlere Yapılacak</h3>
+      <h4>Devamı için tıklayınız...</h4>
+    </div> <br>
+    <div class="kücükimg"><img src="5f36c186c9de3d00bc394aa5.jpg" width="320px" height="180px"> 
+    <h3>İşte Bugünün Türkiye Korona verileri </h3>
+    <h4>Devamı için tıklayınız...</h4>
+    </div>
+  </div>
+  <div class="main">
+    <h2>Corona Nedir?</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="imagine"><img src="CoronaVirüs1-960x640.jpg" width="320px" height="180px"></div>
+    <p>İlk olarak Çin’in Wuhan bölgesinde, 2019 yılı Aralık ayının başında görülüp, bu bölgedeki yetkililer tarafından tanımlandığı
+       için gayri resmi Wuhan koronavirüsü adıyla da bilinen yeni koronavirüs solunum yolu enfeksiyonuna neden olan ve insandan insana
+       geçebilen bulaşıcı bir virüstür.
+
+      Dünya Sağlık Örgütü (WHO) tarafından virüsün resmi adı SARS-CoV-2 (Şiddetli Akut Solunum Sendromu-Koronavirus-2) olarak belirlenmiştir.
+      Dünya Sağlık Örgütü virüsün neden olduğu hastalığı tanımlamak için COVID-19 terimini kullanmaktadır.
+      
+      30 Ocak 2020'de CoViD-19, Dünya Sağlık Örgütü tarafından küresel bir sağlık acil durumu ilan edilmiştir. 11 Mart 2020 tarihinde ise virüs
+      pandemi, yani küresel salgın hastalık olarak ilan edilmiştir.</p>
+  
+    <br>
+    <div class="imagine"><img src="FGi-gQcGo0OmeEONIlX-QA.jpg" width="320px" height="180px"></div>
+    <p>Yeni koronavirüs hastalığı (Covid-19), ilk olarak 13 Ocak 2020 tarihinde Çin’in Vuhan eyaletinde yüksek ateş ve nefes darlığı ile tanımlanan
+       yeni viral solunum yolu hastalığıdır. Hastalığın damlacık ve temas yoluyla bulaştığı bilinmektedir. Oluşturduğu küresel salgın durumundan ötürü pandemi olarak tanımlanmaktadır.
+
+      Yeni koronavirüs hem hayvanları, hem de insanları etkileyebilen koronavirüs ailesinin bir türüdür. Geçmişe bakıldığında koronavirüs 
+      ailesinden bazı farklı virüslerin, MERS (Orta Doğu Solunum Sendromu) ve SARS (Şiddetli Akut Solunum Sendromu) gibi şiddetli görülen solunum
+      hastalıklarına sebep olduğu görülmektedir.
+      
+      Koronavirüsler, elektron mikroskobuyla bakıldığından yuvarlak ve üzerinde çıkıntıları olan bir taça benzetildiği için,
+      Latince’de taç anlamına gelen koronadan kelimesiyle adlandırılmışlardır
+      
+      Toplumumuzda yıllardır koronavirüsler görülmektedir. Bunların en basitleri ve en sık görüleni nezledir. 
+      Burun akıntısıyla birlikte üst solunum yolu enfeksiyonuna neden olan, 20 farklı virüs türünün bir grubu da 
+      koronavirüstür.
+      
+      Koronavirüs ailesinden pek çok diğer koronavirüs, yeni koronavirüse göre daha hafif semptomların görüldüğü,
+       daha hafif seyirli hastalıklara neden olmaktadır. Bu nedenle koronavirüsler, konu soğuk algınlığı gibi 
+       hastalıklar olduğunda herhangi bir paniğe yol açmamıştır.</p>
+      
+      Zaman zaman koronavirüsler insanlar ve hayvanlar arasında geçiş gösterebilmektedir. Virüslerin genetik bilgisi,
+      RNA’sının mutasyona uğraması sebebiyle değişiklik göstermektedir. Özellikle yüzey proteinlerinde hücreye tutunup, içeriye girmekte kullandığı proteinlerde değişiklik yaratarak, daha önce oluşmuş bağışıklık sisteminden kaçmakta, hem de daha hızlı çoğalıp hücrelere çok daha fazla zarar verebilmektedir.
+      
+      <p>Daha önce SARS adı verilen virüs, bugünkü yeni koronavirüse çok benzer bir hastalık oluşturdu. SARS ismi, 
+      şiddetli akut solunum sendromunun İngilizce karşılığının baş harfleri kullanılarak oluşturulmuş isimdir.
+       Günümüzde gündemde olan koronavirüs için de, ikinci SARS virüsü benzetmesi kullanılmaktadır.
+      
+      Bunun dışında koronavirüs ailesinden bir başka virüs de ciddi hastalık oluşturabilme potansiyeli ve neden olduğu 
+      salgınlarla dünya gündemine gelmişti. MERS ismi verilen, Orta Doğu Solunum Sendromu, develerden insanlara geçiş gösteren bir koronavirüs 
+      türünün neden olduğu hastalık, bir süre Orta Doğu bölgesinde bir epidemi oluşturmuştur.
+      
+      Ancak MERS’in hastalık bakımından etkileri bütün dünyada görülmediği için pandemi olarak adlandırılmamıştır. 
+      MERS hala daha Orta doğu bölgesinde belirli aralıklarla zaman zaman olgular şeklinde görülmektedir.
+      
+      Şu anda etkilerini gördüğümüz koronavirüs hastalığının, ilk olarak 2019 yılında tanımlanması nedeniyle, küresel olarak kabul gören adı 
+      CoViD-19’dur.</p>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h4>2021 Tüm Hakları Saklıdır</h4>
+</div>
+
+</body>
+</html>
